@@ -2,7 +2,10 @@ import  express  from "express";
 
 const app = express();
 
-console.log("a");
+app.get("/", (req,res) => {
+  res.send("Hello sibi")
+})
+
 
 
 
