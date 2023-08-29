@@ -2,7 +2,10 @@ import  express  from "express";
 
 const app = express();
 
-//Listen to port
+app.get("/", (req,res) => {
+  res.send("Hello sibi")
+})
+
 
 
 
